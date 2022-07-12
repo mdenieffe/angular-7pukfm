@@ -2,7 +2,7 @@
 
 <app-status [template]="statusTemplate2" [status]="'STARTED'"></app-status>
 
-<app-status [template]="statusTemplate1" [status]="'COMPLETED'"></app-status>
+<app-status [template]="statusTemplate3" [status]="'COMPLETED'"></app-status>
 
 <ng-template #statusTemplate1>
   <div>Template 1</div>
@@ -11,4 +11,11 @@
 <ng-template #statusTemplate2>
   <div>Template 2</div>
   <div>Extra info here...</div>
+  <button (click)="start()">Start</button>
+</ng-template>
+
+<ng-template #statusTemplate3>
+  <div>Template 3</div>
+
+  <button (click)="complete()">complete</button>
 </ng-template>

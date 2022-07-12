@@ -15,4 +15,5 @@ export class AppStatusComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {}
+
 }
