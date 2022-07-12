@@ -1,0 +1,14 @@
+<app-status [template]="statusTemplate1" [status]="'NOT_STARTED'"></app-status>
+
+<app-status [template]="statusTemplate2" [status]="'STARTED'"></app-status>
+
+<app-status [template]="statusTemplate1" [status]="'COMPLETED'"></app-status>
+
+<ng-template #statusTemplate1>
+  <div>Template 1</div>
+</ng-template>
+
+<ng-template #statusTemplate2>
+  <div>Template 2</div>
+  <div>Extra info here...</div>
+</ng-template>

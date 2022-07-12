@@ -1,0 +1,15 @@
+.NOT_STARTED {
+  background-color: lightgrey;
+}
+
+.STARTED {
+  background-color: lightblue;
+}
+
+.COMPLETED {
+  background-color: greenyellow;
+}
+
+.pad-10 {
+  padding: 10px;
+}
